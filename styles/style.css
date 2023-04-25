@@ -45,25 +45,13 @@ body, html {
     padding: 2rem;
   }
   
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-  }
-  
   h1, h2, p {
     color: white;
   }
   
-  #about, #contact {
+  #background {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 1rem;
     border-radius: 5px;
-  }
-  
-  @media (max-width: 768px) {
-    nav ul {
-      flex-direction: column;
-    }
   }
   
